@@ -8,5 +8,5 @@ export class CreateUserDto {
   email: string;
 
   @IsNotEmpty({ message: 'Le statut est obligatoire.' })
-  status: string;
+  active: boolean;
 }
